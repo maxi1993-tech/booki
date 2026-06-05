@@ -37,13 +37,31 @@
                     <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                     <input type="text" name="search-city" id="search-city" placeholder="Marseille, France"
                         aria-label="Rechercher votre ville">
-                    <button class="search-btn-desktop" type="button">Rechercher</button>
-                    <button class="search-btn-mobile" type="button"><i class="fa-solid fa-magnifying-glass"
+                    <button class="search-btn-desktop" type="submit">Rechercher</button>
+                    <button class="search-btn-mobile" type="submit"><i class="fa-solid fa-magnifying-glass"
                             aria-hidden="true"></i><span class="sr-only">Rechercher</span></button>
                 </form>
+
+                <div class="filter">
+                    <p>Filtres</p>
+                    <ul>
+                        <li><button type="button"><i class="fa-solid fa-money-bill-wave"
+                                    aria-hidden="true"></i>Économique</button></li>
+                        <li><button type="button"><i class="fa-solid fa-person" aria-hidden="true"></i>Familial</button>
+                        </li>
+                        <li><button type="button"><i class="fa-solid fa-heart"
+                                    aria-hidden="true"></i>Romantique</button></li>
+                        <li><button type="button"><i class="fa-solid fa-fire" aria-hidden="true"></i>Nos
+                                pépites</button></li>
+                    </ul>
+                </div>
+                <div class="info-form">
+                    <i class="fa-solid fa-info" aria-hidden="true"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
 
                 </section>
                 <section class="populaires">
