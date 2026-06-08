@@ -26,6 +26,9 @@ body {
   min-width: 320px;
   padding: 0 50px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 a {
@@ -107,6 +110,74 @@ header img {
 }
 
 /****** Hero ***********/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-title h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.hero-title p {
+  margin: 0;
+}
+
+.search-form {
+  width: 377px;
+  height: 49px;
+  display: flex;
+  outline: 1px solid var(--main-bg-color);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.logo-form {
+  background-color: var(--main-bg-color);
+  width: 50px;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-location-dot {
+  color: black;
+}
+
+.search-city {
+  border: none;
+  padding: 15px 16px 15px 16px;
+}
+
+.search-city::placeholder {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-btn-desktop {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px solid var(--main-color);
+  border-radius: 0 15px 15px 0;
+  padding: 15px 16px 15px 16px;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-btn-mobile {
+  display: none;
+}
 
 /****** Filtres ***********/
 
