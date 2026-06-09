@@ -48,7 +48,13 @@ a {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img {
+img {
+  display: block;
+}
+
+.card img,
+.card-hebergement img,
+.activites-card img {
   object-fit: cover;
 }
 
@@ -67,6 +73,8 @@ a {
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /****** Header ***********/
@@ -137,7 +145,7 @@ header img {
   height: 49px;
   display: flex;
   outline: 1px solid var(--main-bg-color);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
 }
 
 .logo-form {
@@ -155,7 +163,7 @@ header img {
 
 .search-city {
   border: none;
-  padding: 15px 16px 15px 16px;
+  padding: 15px 16px;
 }
 
 .search-city::placeholder {
@@ -169,7 +177,7 @@ header img {
   color: white;
   border: 1px solid var(--main-color);
   border-radius: 0 15px 15px 0;
-  padding: 15px 16px 15px 16px;
+  padding: 15px 16px;
   flex-grow: 1;
   font-size: 18px;
   font-weight: 700;
