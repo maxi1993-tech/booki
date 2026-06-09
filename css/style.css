@@ -7,6 +7,7 @@
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
+  --border-color-grey: #d9d9d9;
 }
 
 .fa-solid {
@@ -117,6 +118,12 @@ header img {
   color: var(--main-color);
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
 /****** Hero ***********/
 
 .hero {
@@ -190,6 +197,75 @@ header img {
 }
 
 /****** Filtres ***********/
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter > p {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.filter-lists {
+  display: flex;
+  gap: 15px;
+}
+
+.filter-btn {
+  background-color: white;
+  min-height: 50px;
+  height: 100%;
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 19px;
+  border-radius: 25px;
+  outline: 2px solid var(--border-color-grey);
+  border: none;
+}
+
+.fa-money-bill-wave {
+  font-size: 22px;
+}
+
+.fa-person {
+  font-size: 22px;
+}
+
+.fa-heart {
+  font-size: 22px;
+}
+
+.fa-fire {
+  font-size: 22px;
+}
+
+.info-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  outline: 1px solid var(--border-color-grey);
+  border-radius: 50%;
+}
+
+.fa-info {
+  font-size: 10px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
