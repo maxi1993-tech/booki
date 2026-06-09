@@ -178,6 +178,7 @@ header img {
   color: black;
   font-size: 18px;
   font-weight: 700;
+  text-align: center;
 }
 
 .search-btn-desktop {
@@ -230,19 +231,15 @@ header img {
   border: none;
 }
 
-.fa-money-bill-wave {
-  font-size: 22px;
+.filter-btn:focus-visible {
+  outline: 2px solid black;
 }
 
-.fa-person {
-  font-size: 22px;
+.filter-btn:hover {
+  background-color: var(--filter-bg-color);
 }
 
-.fa-heart {
-  font-size: 22px;
-}
-
-.fa-fire {
+.filter-btn .fa-solid {
   font-size: 22px;
 }
 
