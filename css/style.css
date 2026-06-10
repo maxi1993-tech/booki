@@ -727,4 +727,14 @@ header img {
   }
 
   /****** Footer ***********/
+
+  .footer {
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+  }
+
+  .footer section {
+    padding: 0;
+  }
 }
