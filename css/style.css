@@ -554,5 +554,100 @@ header img {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  /****** General ***********/
+
+  .main-container {
+    padding: 0;
+  }
+
+  /****** Header ***********/
+
+  header {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header a {
+    padding: 30px;
+    justify-content: center;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+  .main-nav ul {
+    width: 100%;
+    display: flex;
+    gap: 0;
+  }
+
+  .main-nav li {
+    flex: 1;
+  }
+
+  .main-nav a {
+    padding: 0;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .main-nav a:hover {
+    border-bottom: 2px solid var(--main-color);
+    border-top: none;
+  }
+
+  /****** Hero ***********/
+
+  .hero {
+    padding: 0 20px;
+  }
+
+  .search-form {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .search-btn-desktop {
+    display: none;
+  }
+
+  .search-btn-mobile {
+    background-color: var(--main-color);
+    display: block;
+    padding: 15px 16px;
+    border-radius: 15px;
+    border: var(--main-color);
+  }
+
+  .search-btn-mobile .fa-solid {
+    font-size: 17px;
+    color: white;
+  }
+
+  /****** Filter ***********/
+
+  .filter-lists {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+  }
+
+  .filter-lists li {
+    width: calc(50% - 5px);
+  }
+
+  .filter-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .info-form p {
+    margin: 0;
+  }
+
+  .icon-form {
+    min-width: 24px;
+  }
 }
