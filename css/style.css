@@ -701,6 +701,7 @@ header img {
   /****** Hebergements ***********/
 
   .hebergements {
+    background-color: var(--main-bg-color);
     order: 2;
     gap: 15px;
   }
@@ -711,6 +712,19 @@ header img {
   }
 
   /****** Activites ***********/
+
+  .activites-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activites-card {
+    min-height: 200px;
+  }
+
+  .activites-card img {
+    height: 141px;
+  }
 
   /****** Footer ***********/
 }
