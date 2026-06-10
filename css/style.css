@@ -650,4 +650,61 @@ header img {
   .icon-form {
     min-width: 24px;
   }
+
+  .hebergements-and-populaires section {
+    padding: 30px 20px;
+  }
+
+  /****** Populaires ***********/
+
+  .populaires {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .populaires-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .populaires-cards .card {
+    margin: 0;
+  }
+
+  .populaires-cards .card-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .populaires-cards .card-content {
+    padding: 10px 5px 5px 15px;
+  }
+
+  .populaires-cards .card-title {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .populaires-cards .card-rating {
+    margin: 0;
+    line-height: 1;
+  }
+
+  /****** Hebergements ***********/
+
+  .hebergements {
+    order: 2;
+  }
+
+  /****** Activites ***********/
+
+  /****** Footer ***********/
 }
