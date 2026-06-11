@@ -190,10 +190,12 @@ header img {
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
+  cursor: pointer;
 }
 
 .search-btn-mobile {
   display: none;
+  cursor: pointer;
 }
 
 /****** Filter ***********/
@@ -227,6 +229,7 @@ header img {
   border-radius: 25px;
   outline: 2px solid var(--border-color-grey);
   border: none;
+  cursor: pointer;
 }
 
 .filter-btn:focus-visible {
