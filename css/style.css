@@ -704,8 +704,11 @@ header img {
 
   /****** Hebergements ***********/
 
+  .hebergements-and-populaires .hebergements {
+    background-color: white;
+  }
+
   .hebergements {
-    background-color: var(--main-bg-color);
     order: 2;
     gap: 15px;
   }
